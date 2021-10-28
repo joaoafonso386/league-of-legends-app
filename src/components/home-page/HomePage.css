@@ -1,0 +1,14 @@
+.home-page {
+  text-align: center;
+}
+
+.home-page h1 {
+  color: var(--primary-color);
+  margin: 50px 0;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.home-page img {
+  margin-bottom: 80px;
+}

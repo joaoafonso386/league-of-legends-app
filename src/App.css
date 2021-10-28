@@ -1,0 +1,18 @@
+/* Global Variables */
+html {
+  --primary-color: #0d324d;
+  --secondary-color: #7f5a83;
+  --third-color: #9da2ab;
+  --fourth-color: #a188a6;
+  --rich-black: #020202;
+  --white: #ffff;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  color: #ccc;
+}

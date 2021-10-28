@@ -1,0 +1,67 @@
+.rk-top-users {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rk-top-user-container {
+  border: 2px solid;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #9dd9d2;
+  border-width: 0;
+  padding: 0;
+}
+
+.rk-top-user-container img {
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.rk-top-user-container .rk-ranking-container {
+  background-color: grey;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-top-left-radius: 22px;
+}
+
+.rk-top-users .rk-user-name-container {
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+.rk-stad {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.rk-top-users .rk-tier-container {
+  margin: 0.5em;
+}
+
+.rk-top-users .rk-lp-container {
+  margin: 0.5em;
+}
+
+.rk-top-users .rk-level-container {
+  margin: 0.5em;
+}
+
+.rk-top-users .rk-win-rate-container {
+  padding-top: 10px;
+  height: 10%;
+}

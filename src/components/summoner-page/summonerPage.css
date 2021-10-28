@@ -1,0 +1,66 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+.summonerPage-BigContainer {
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100vh;
+}
+
+.summonerPage-SummonerContainer {
+  padding-top: 30vh;
+  margin: 0%;
+  position: relative;
+  align-content: center;
+  width: 40vw;
+  height: 100vh;
+  
+}
+
+.summonerPage-ImgContainer {
+  left: 0;
+  position: absolute;
+  width: 70vw;
+  height: 100vh;
+}
+
+.ImgContainer-Img {
+  width: 70vw;
+  height: 100vh;
+}
+
+.SummonerContainer-Summoner {
+  padding-right: 5%;
+  padding-bottom: 1%;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.Icon{
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+
+}
+
+.SummonerContainer-Level {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.SummonerContainer-Level h3{
+  color: tomato;
+  align-self: flex-start;
+}
+
+.SummonerContainer-Level h5{
+  color: green
+}

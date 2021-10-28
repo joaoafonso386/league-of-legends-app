@@ -1,0 +1,299 @@
+.summonerPage_StatsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-end;
+  height: 150px;
+  width: 500px;
+  border: 2px solid #0D324D;
+  border-radius: 20px;
+  background-color: #9DA2AB;
+}
+
+.summonerPage_WinRateGraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  width: 120px;
+}
+
+.summonerPage_BestChampions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 150px;
+  width: 190px;
+  border-left: 2px solid #0D324D;
+}
+
+.summonerPage_BestChampions_id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 5px 0px;
+  height: 40px;
+  width: 190px;
+}
+
+.summonerPage_BestChampions_id_img {
+  border-radius: 100%;
+  margin: 0px 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.summonerPage_BestChampions_id_txtBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.summonerPage_BestChampions_id_championName {
+  font-size: small;
+  margin: 0px 5px;
+  height: 20px;
+  width: 110px;
+}
+
+.summonerPage_BestChampions_id_txt {
+  margin: 0px 5px;
+  font-size: small;
+  height: 20px;
+  width: 110px;
+}
+
+.summonerPage_BestChampions_id_txt span {
+  color: #7F5A83;
+}
+
+.summonerPage_PreferredPosition {
+  height: 150px;
+  width: 190px;
+  border-left: 2px solid #0D324D;
+}
+
+.summonerPage_PreferredPosition_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.summonerPage_PreferredPosition_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0px 0px 0px;
+  height: 20px;
+  width: 190px;
+  color: #7F5A83;
+}
+
+.summonerPage_PreferredPosition_Pos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50px;
+  width: 190px;
+  margin: 5px 0px;
+}
+
+.summonerPage_PreferredPosition_Pos_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.pos_img {
+  height: 50px;
+  width: 50px;
+}
+
+.pos_txt_1 {
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+.pos_txt_2 {
+  margin-bottom: 10px;
+  font-size: smaller;
+  color: #7F5A83;
+}
+
+.summonerPage_PreferredPosition_Pos_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.summonerPage_PreferredPosition_Pos_WinRatio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border-left: 1px solid;
+  margin: 25px 0px 0px 5px;
+  font-size: smaller;
+  justify-self: baseline;
+}
+
+.summonerPage_PreferredPosition_Pos_WinRatio span {
+  color: blue;
+}
+
+.chart-three {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  position: relative;
+}
+
+.chart-three.animate svg .circle-foreground {
+  -webkit-animation: offset 3s ease-in-out forwards;
+          animation: offset 3s ease-in-out forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.chart-three.animate figcaption:after {
+  -webkit-animation: chart-three-label 3s steps(89) forwards;
+          animation: chart-three-label 3s steps(89) forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.chart-three svg {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-three svg .circle-background, .chart-three svg .circle-foreground {
+  r: 45px;
+  cx: 50%;
+  cy: 50%;
+  fill: none;
+  stroke: #A188A6;
+  stroke-width: 10px;
+}
+
+.chart-three svg .circle-foreground {
+  stroke: #7F5A83;
+  stroke-dasharray: 251.514px 282.6px;
+  stroke-dashoffset: 251.514px;
+  stroke-linecap: round;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.chart-three figcaption {
+  display: inline-block;
+  width: 100%;
+  height: 1rem;
+  overflow: hidden;
+  text-align: center;
+  color: #7F5A83;
+  position: absolute;
+  top: calc(50% - 0.5rem);
+  left: 0;
+  font-size: 0;
+}
+
+.chart-three figcaption:after {
+  display: inline-block;
+  content: "0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a";
+  white-space: pre;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+@-webkit-keyframes chart-three-label {
+  100% {
+    -webkit-transform: translateY(-89rem);
+            transform: translateY(-89rem);
+  }
+}
+
+@keyframes chart-three-label {
+  100% {
+    -webkit-transform: translateY(-89rem);
+            transform: translateY(-89rem);
+  }
+}
+
+@-webkit-keyframes offset {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes offset {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+/*# sourceMappingURL=summonerStats.css.map */

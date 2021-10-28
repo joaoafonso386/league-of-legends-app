@@ -1,0 +1,70 @@
+.rk-main-user-container {
+  border: 2px solid;
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  background-color: #9dd9d2;
+  border-width: 0;
+  padding: 0;
+}
+
+.rk-image-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rk-texts-container {
+  width: 70%;
+}
+
+.rk-main-user-container img {
+  border-radius: 50%;
+}
+
+.rk-main-user-container .rk-ranking-container {
+  background-color: grey;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+
+  border-top-left-radius: 22px;
+}
+
+.rk-main-user-container .rk-user-name-container {
+  font-size: 25px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.rk-stad {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 3%;
+}
+
+.rk-main-user-container .rk-tier-container {
+  margin: 0.5em;
+}
+
+.rk-main-user-container .rk-lp-container {
+  margin: 0.5em;
+}
+
+.rk-main-user-container .rk-level-container {
+  margin: 0.5em;
+}
+
+.rk-main-user-container .rk-win-rate-container {
+}

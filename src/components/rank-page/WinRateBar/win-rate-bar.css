@@ -1,0 +1,32 @@
+.rk-win-rate-container {
+  align-self: stretch;
+}
+
+.rk-win-rate-bar {
+  width: 70%;
+  margin-right: 0.5em;
+}
+
+.rk-win-rate {
+  background-color: #345995;
+  display: flex;
+  justify-content: left;
+  color: white;
+  padding: 0;
+  margin: 0;
+  padding-left: 0.5em;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rk-lose-rate {
+  background-color: #ca1551;
+  display: flex;
+  justify-content: right;
+  color: white;
+  padding: 0;
+  margin: 0;
+  padding-right: 0.5em;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

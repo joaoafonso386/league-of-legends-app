@@ -1,0 +1,44 @@
+.rk-horizontal-center-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rk-body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 1vh;
+  background-color: #12355b;
+  padding-bottom: 20vh;
+}
+
+.rk-align-left {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.rk-container-shadow {
+  -webkit-box-shadow: 0px 0px 50px -8px #000000;
+  box-shadow: 0px 0px 50px -8px #000000;
+}
+
+.rk-rounded-borders {
+  border-radius: 25px;
+}
+
+.rk-main-user-container:hover,
+.rk-top-user-container:hover,
+.rk-list-user-container:hover {
+  cursor: pointer;
+  animation: rk-select 0.05s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rk-select {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
